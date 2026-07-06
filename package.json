@@ -1,0 +1,19 @@
+{
+  "name": "anon-chat",
+  "version": "1.0.0",
+  "description": "Anonymous 1-on-1 random chat, built as a Telegram Mini App",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "socket.io": "^4.7.5",
+    "dotenv": "^16.4.5",
+    "nanoid": "^3.3.7"
+  }
+}
